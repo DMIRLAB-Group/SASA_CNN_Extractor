@@ -16,5 +16,7 @@ You can run it with the following command.
 python main.py -cuda_device 0 -dataset HHAR -batch_size 64 -seed 10 -epochs 40
 ```
 
+## result
+#### HAR、HHAR、WISDM
 
-![img.png](img.png)
+![img_2.png](img_2.png)
