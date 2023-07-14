@@ -17,7 +17,7 @@ python main.py -cuda_device 0 -dataset HHAR -batch_size 64 -seed 10 -epochs 40
 ```
 
 ## result
-#### HAR、HHAR、WISDM 
+#### HAR 
 
 | dataset | domain  | f1          |
 |---------|---------|-------------|
@@ -32,6 +32,7 @@ python main.py -cuda_device 0 -dataset HHAR -batch_size 64 -seed 10 -epochs 40
 |         | 7_to_13 | 92.67917    |       
 |         | 9_to_18 | 80.68039667 |
 
+#### HHAR
 | dataset | domain | f1          |
 |---------|--------|-------------|
 | HHAR    | 0_to_2 | 73.22542667 |
@@ -44,6 +45,7 @@ python main.py -cuda_device 0 -dataset HHAR -batch_size 64 -seed 10 -epochs 40
 |         | 7_to_4 | 89.41448667 |   
 |         |8_to_3	| 83.05941    |
 
+#### WISDM
 | dataset | domain   | f1          | 
 |---------|----------|-------------|
 | WISDM   | 17_to_23 | 51.51952333 |
