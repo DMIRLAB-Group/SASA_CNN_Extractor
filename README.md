@@ -17,4 +17,4 @@ python main.py -cuda_device 0 -dataset HHAR -batch_size 64 -seed 10 -epochs 40
 ```
 
 
-
+![img.png](img.png)
